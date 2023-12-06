@@ -1,8 +1,2 @@
 #!/bin/bash
-python_file_path=$PYFILE
-
-if [ -f "$python_file_path" ]; then
-	/usr/bin/python3 "$python_file_path"
-else
-	echo "Error: Python file not found."
-fi
+/usr/bin/python3 "$PYFILE"
