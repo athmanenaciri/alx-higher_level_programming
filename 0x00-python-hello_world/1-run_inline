@@ -1,2 +1,2 @@
 #!/bin/bash
-eval "$PYCODE" | awk 'END {print length}'
+eval "$PYCODE"
